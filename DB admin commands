@@ -1,0 +1,97 @@
+Bridge-
+	admin re ExplosionVFX: Plays an explosive sound at the last stage building.
+	admin re DisableBarricade: Disables generator reparing and C4 planting for the barricade. Still allows destruction via shooting/explosives.
+	admin re Explosion: Plays last stage building's exploding effects.
+	admin re CameraShake: Forces camerashake for player's screen at the end of EV delivery point and beyond set point.
+
+Terminal-
+	Nothing, shit map.
+
+Dockyard-
+	admin re DestroyShield: Plays explosive effects and sounds at last stage building.
+	admin re StopLauncher1Roation & StopLauncher2Roation: Disables missile turret launchers from rotating at last stage building.
+
+Underground-
+	admin re resetlift1: Forces the first elevator to be reset at ground level.
+	admin re resetlift3: Forces the second elevator to be reset at ground level.
+	admin re CIN_Outro_DisableSpawns: Possibly disables only yourself from spawning in after dying. Not recommended to use.
+
+Trainyard-
+	admin re CIN_IntroHeli: Forces helicopter sounds to play at attackers spawn side.
+	admin re RE_Train_Sequence_Start: Forces train to plow it's way through first stage wall. LMFAO CHOO CHOO TRAIN MOTHERFUCKER, GET OUT THE WAY!
+	admin re OpenRailworksGate: Forces open the Railworks gate at second stage.
+	admin re TurnOnInstaKillTriggers: Toggles on insta death at train location for last stage. You will die if you touch the booty!
+	admin re TurnOffInstaKillTriggers: Toggles off insta death at train location for last stage. Touch thy booty if you wish.
+
+Chapel-
+	admin re CIN_HideEV: Makes the EV disappear, but not actually gone. The MG is still visiable, how lame.
+	admin re CIN_ShowEV: Reverts the _Hide cmd.
+
+Castle-
+	admin re Tower_FX_Trails: Force starts explosion effects at EV delivery point at second stage. 
+	admin re Tower_Explosion: Forces tower wall at EV delivery point at second stage to explode open.
+	admin re CargoTruckCrate: Forces cargo tuck behind the main gate at stage one to explode. 
+	admin re DoorsExplosions: Forces the main gate at first stage to explode open. Does not need EV to be repaired.
+	admin re DoorReset: Forces the main gate at first stage to be fully repaired.
+	admin re CrushCargo: Simply crushes and destroys the cargo van behind the main gate at first stage.
+
+Vault-
+	Nothing, shit map.
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+admin SoftRestartMatch - Will quickly restart the match, without needing to replay the map intro.
+
+admin DestroySession - Will cause the match/round to end.
+
+admin changemap Lobby - Will load back to the lobby / map voting screen.
+
+admin servertravel ?restart - Will cause the match to restart, but can also be used to restart in the lobby screen.
+
+admin changemap FuncTest_5Characters - Will cause the server to hard crash; requires manual restart. NOT RECOMMENDED TO DO!
+
+ListClients - Presents a list of all current ID's for players on the server.
+
+admin admin CallVoteKickPlayer [enter ID] - Can call a kick vote against yourself. Can repeatedly spam the command to annoy teammates until they agree to boot you.
+
+admin ForceSpectatorOnly [enter ID] - Forces a player to be forced into spectator mode; player cannot switch out of spec mode. Can even forcespec a logged in admin.
+
+admin UnForceSpectatorOnly [enter ID] - Reverts the ForceSpectatorOnly cmd.
+
+admin ForceRespawn - Will allow you (the admin only) to instantly be able to respawn, no matter what the respawn timer is at.
+
+admin SetTimeLimit - Set the match countdown timer to any value. 60=1 minute.
+
+admin ResetPlease - Will cause the objectives to be reset and no longer doable.
+
+admin BeginBVT - Forces everyone on the server to lose connection to the server.
+
+admin PermaBan [enter ID] - Acts as a manual ban instead of the admin panel, will only ban a player for that one match duration.
+
+admin ChangeMap tut_basictutorial - Will load the server into the tutorial map. Press K to respawn randomly somewhere else in the map, might need to K out several times. Use re commands to mess with events.
+
+admin ChangeMap ShooterEntry - Will load the server into the ShooterEntry map. Will force the server to crash and reboot after a short period of time.
+
+admin changemap ShooterGame - Will cause server to load into an empty black void. NOT RECOMMENDED TO DO!
+
+admin ChangeMap Nuf_Tut - Will load the server into the old version of the tutorial map. Use re commands to mess with events.
+
+admin startmatch - Forces the match to start while in the lobby screen. Who likes long waits?
+
+admin Quit - Forces the server to initiate a quick reboot.
+
+admin Exit - Forces the server to initiate a quick reboot.
+
+admin SetDilation [enter a value] - Changes the server speed. 1 seems to be default, slow<0.9 - 1.10>fast. 1.2 is nice. 
+
+debug crash - Will instantly close DB. Rage quit much? Set it to a keybind.
+
+Admin EnableAllTalk true - Will allow everyone in the server to talk to each other in VC. 
+
+StartTalking - Will toggle your mic on, so you don't need to use your PTT key.
+
+Admin Slap [playername] - Causes 10 HP damage to be dealt on player.
+
+SetChatLogFontSize 
